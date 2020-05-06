@@ -24,7 +24,7 @@ public class TicTacToe extends JPanel
         setLayout(new GridLayout(3, 3));
         gameLog.append(new Date().toString() + "\n");
 
-        for (int i = 0; i <= 8; i++)
+        for (int i = 0; i <= 8; i++)        //Creates board of buttons
         {
             buttons[i] = new JButton();
             buttons[i].setText("");
